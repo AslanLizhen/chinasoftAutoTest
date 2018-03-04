@@ -1,0 +1,143 @@
+* {
+    border: 1px solid white !important;
+}
+
+/*设置灰蓝色分割线*/
+.site-header {
+    border-bottom: 3px solid #7d97ad !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+/*设置google font字体*/
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/*设置 h1 字体类型，大小，颜色*/
+.headerinfo1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #2d3c49;
+}
+
+/*设置 h3 字体大小，颜色*/
+.headerinfo2 {
+    color: #2d3c49;
+    font-weight: bold;
+}
+
+/*设置 h2 字体大小，颜色, 粗细*/
+.featurework {
+    font-size: 15px;
+    color: #7d97ad;
+    font-weight: bold;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*设置容器的margin，最大宽度*/
+.grid {
+    margin: 0 auto;
+    /*居中通过定义“边缘：0 自动”（自动留出水平边缘）来完成*/
+    max-width: 50em;
+    width: 100%;
+}
+
+/*使用flex实现响应式布局*/
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-bottom: 20px;*/
+}
+
+/*设置头部信息靠右对齐*/
+.headerinfo {
+    text-align: right;
+}
+
+/*设置col-1 -- col-12 列所占的宽度*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*设置段落内容换行*/
+p {
+    word-wrap: break-word;
+}
+
+/*设置页脚和段落内容，居中对齐*/
+footer,
+p {
+    text-align: center;
+}
+
+/*设置作品集名称信息居中，颜色，字体大小和粗细*/
+.articletitle {
+    text-align: center;
+    color: #2d3c49;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*设置网页logo的高和宽*/
+svg#logo {
+    height: 15vw;
+    width: 15vw;
+}
+
+/*设置鼠标经过作品链接时，显示黄色，鼠标变手型，字体放大1.2倍*/
+p a:hover {
+    background-color: yellow;
+    font-size: 120%;
+}

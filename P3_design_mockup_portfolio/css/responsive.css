@@ -1,0 +1,54 @@
+/*默认css设置以Mobile first（移动设备优先），500px-850px为中等屏幕设置*/
+/*使用大体流动模型，变为两列，并设置右侧列的margin-left为2%；
+  调整logo高和宽为70px，增加h1，h2, h3的字体大小*/
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .article1,
+    .article2,
+    .article3 {
+        width: 49%;
+    }
+    .article2 {
+        margin-left: 2%;
+    }
+    svg#logo {
+        height: 70px;
+        width: 70px;
+    }
+    .headerinfo1 {
+        font-size: 28px;
+    }
+    .featurework {
+        font-size: 18px;
+    }
+    .articletitle {
+        font-size: 18px;
+    }
+}
+
+/*850px以上为大屏幕设置*/
+/*使用大体流动模型，变为3列，并设置中间列的margin-left和margin-right为2%；
+  调整logo高和宽为80px，增加h1，h2, h3的字体大小*/
+@media screen and (min-width: 850px) {
+    .article1,
+    .article2,
+    .article3 {
+        width: 32%;
+    }
+    .article2 {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    svg#logo {
+        height: 80px;
+        width: 80px;
+    }
+    .headerinfo1 {
+        font-size: 30px;
+    }
+    .featurework {
+        font-size: 20px;
+    }
+    .articletitle {
+        font-size: 20px;
+    }
+}
